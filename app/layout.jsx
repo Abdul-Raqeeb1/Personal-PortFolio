@@ -1,22 +1,13 @@
-import { JetBrains_Mono, JetBrains_Mono } from "next/font/google";
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import { Home, Weight } from "lucide-react";
-
-// components
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
-import Services from "./services/page";
-import Homes from "./page";
-import Nav from "@/components/Nav";
-import Resume from "./resume/page";
-import Work from "./work/page";
-import Contact from "./contact/page";
 
 
 const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  Weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
   variable: "--font-jetbrainsMono",
 });
 
@@ -28,12 +19,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={jetbrainsMono.variable}>
+      <body
+        className={jetbrainsMono.variable}
+      >
         <Header />
-        <Contact />
-
         <StairTransition />
-        <PageTransition>{children}</PageTransition>
+        {children}
+        <PageTransition >{children}</PageTransition>
       </body>
     </html>
   );

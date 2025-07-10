@@ -6,7 +6,7 @@ import Socials from "@/components/Socials";
 import Photo from "@/components/Photo";
 import Stats from "@/components/Stats";
 
-const Homes = () => {
+const Home = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
@@ -14,7 +14,7 @@ const Homes = () => {
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Full Stack Developer</span>
-            <h1 className="mb-6 text-[48px] xl:text[80px] leading-[1.1] font-semibold">
+            <h1 className="mb-6 text-[48px] xl:text-[80px] leading-[1.1] font-semibold">
               Hello I'm <br /> <span className="text-[#00ff99]">Abdul Raqeeb</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
@@ -47,4 +47,4 @@ const Homes = () => {
   );
 };
 
-export default Homes;
+export default Home;

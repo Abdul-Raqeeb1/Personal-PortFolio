@@ -13,7 +13,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 
 import Link from "next/link";
 import Image from "next/image";
-import { Description } from "@radix-ui/react-dialog";
+
 import WorkSliderBtns from "@/components/WorkSliderBtns";
 
 const projects = [

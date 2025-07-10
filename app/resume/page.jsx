@@ -1,6 +1,6 @@
 "use client";
 
-import { info } from "autoprefixer";
+
 import { FaHtml5, FaCss3, FaJs, FaFigma, FaNodeJs, FaReact, FaNode } from "react-icons/fa"
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si"
