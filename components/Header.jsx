@@ -4,6 +4,7 @@ import { Button } from "./ui/button";
 // components
 import Nav from "@/components/Nav";
 import MobileNav from "@/components/MobileNav";
+import StairTransition from "./StairTransition";
 
 const Header = () => {
     return (
@@ -26,6 +27,7 @@ const Header = () => {
             {/* mobile nav */}
             <div className="xl:hidden">
                 <MobileNav />
+                <StairTransition />
             </div>
             </div>
         </header>

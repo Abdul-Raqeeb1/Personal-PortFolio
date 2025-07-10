@@ -25,7 +25,7 @@ const Photo = () => {
                     <Image src="/assets/photo.png" 
                     priority quality={100} 
                     fill alt="" 
-                    className="object-contain" />
+                    className="object-contain  overflow-hidden" />
                 </motion.div>
 
                 {/* circle */}
