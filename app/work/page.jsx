@@ -24,17 +24,17 @@ const projects = [
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis ipsam id voluptatem culpa veniam . Voluptatum?',
         stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
         image: '/assets/work/thumb3.PNG',
-        live: "",
-        github: "",
+        live: "https://abdul-raqeeb1.github.io/web-design-expert/Project%20Ramzan%20Web%202025/Index.html",
+        github: "https://github.com/Abdul-Raqeeb1/web-design-expert/tree/main/Project%20Ramzan%20Web%202025",
     },
     {
         num: '02',
-        category: 'fullstack',
+        category: 'Expert Choching',
         title: 'project 2',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis ipsam id voluptatem culpa veniam . Voluptatum?',
         stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
         image: '/assets/work/thumb2.png',
-        live: "",
+        live: "https://abdul-raqeeb1.github.io/web-design-expert/Assignment.html",
         github: "",
     },
     {
@@ -44,8 +44,8 @@ const projects = [
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis ipsam id voluptatem culpa veniam . Voluptatum?',
         stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
         image: '/assets/work/thumb1.PNG',
-        live: "",
-        github: "",
+        live: "https://abdul-raqeeb1.github.io/web-design-expert/Meezan%20WebSite/Index.html",
+        github: "https://github.com/Abdul-Raqeeb1/web-design-expert/tree/main/Meezan%20WebSite",
     },
 ]
 
