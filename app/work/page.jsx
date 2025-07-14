@@ -33,7 +33,7 @@ const projects = [
         title: 'project 2',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis ipsam id voluptatem culpa veniam . Voluptatum?',
         stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-        image: '/assets/work/thumb2.png',
+        image: '/assets/work/pic3.jpg',
         live: "https://abdul-raqeeb1.github.io/web-design-expert/Assignment.html",
         github: "",
     },
@@ -46,6 +46,16 @@ const projects = [
         image: '/assets/work/pic2.PNG',
         live: "https://abdul-raqeeb1.github.io/web-design-expert/Meezan%20WebSite/Index.html",
         github: "https://github.com/Abdul-Raqeeb1/web-design-expert/tree/main/Meezan%20WebSite",
+    },
+    {
+        num: '04',
+        category: 'Front / Backend',
+        title: 'project 3',
+        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis ipsam id voluptatem culpa veniam . Voluptatum?',
+        stack: [{ name: "Html 5" }, { name: "Css" }, { name: "JavaScript" }, { name: "Coming Soon" }],
+        image: '/assets/work/pic4.PNG',
+        live: "https://abdul-raqeeb1.github.io/E-Commerce-Project/",
+        github: "https://github.com/Abdul-Raqeeb1/E-Commerce-Project",
     },
 ]
 
