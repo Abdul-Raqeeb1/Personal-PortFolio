@@ -17,7 +17,7 @@ const services = [
         num: '02',
         title: 'Trading',
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-        href: "#",
+        href: "/tradinfo",
     },
     {
         num: '03',
