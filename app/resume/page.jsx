@@ -21,7 +21,7 @@ const about = {
         },
         {
             fieldName: "Experience",
-            fieldValue: "12+ Years",
+            fieldValue: "1 Years",
         },
         {
             fieldName: "TikTok",
